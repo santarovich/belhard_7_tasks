@@ -23,6 +23,7 @@ class Phone:
     brand: str
     model: str
     issue_year: int
+    name: str
 
     def __init__(self, brand, model, issue_year):
         self.brand = brand
